@@ -60,7 +60,7 @@ class ResultsScreen extends StatelessWidget {
             ),
             OutlinedButton.icon(
               onPressed: resetQuiz,
-              icon: Icon(Icons.refresh),
+              icon: const Icon(Icons.refresh),
               label: const Text(
                 'Restart Quiz!',
               ),
